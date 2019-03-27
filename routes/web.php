@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/index', function () { 
+ echo "<a href='".route('create')."'>akses route menggunakan nama </a>"; 
+ 
+}); 
+Route::get('/create', function () { 
+ 
+echo "akses route dengan nama"; 
+ })->name('create');
+ 
+ Route::get('/produk', 'produkController@index'); 
