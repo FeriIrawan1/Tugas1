@@ -1,0 +1,57 @@
+ html { 
+  background:url(https://get.pxhere.com/photo/beach-landscape-sea-coast-water-nature-path-outdoor-sand-ocean-light-glowing-wood-sunshine-sun-field-wheat-sunlight-texture-shore-summer-vacation-travel-coastline-seaside-thinking-contemplation-environment-love-pattern-food-golden-relax-paradise-crop-shine-tranquil-journey-color-peaceful-natural-holiday-calm-island-romance-romantic-soil-glow-blue-yellow-agriculture-tourism-lifestyle-leisure-seashore-season-plain-relaxing-colour-sunny-fun-relaxation-background-gold-design-happy-happiness-grassland-bright-reflecting-wallpaper-different-beautiful-day-pretty-habitat-magical-enjoy-backdrop-ecosystem-effect-wellness-steppe-background-pattern-sunny-day-beach-sand-outdoor-lighting-summer-beach-summer-landscape-nature-background-bright-background-lights-background-summer-background-color-background-spring-background-gold-background-golden-background-natural-environment-aeolian-landform-grass-family-679502.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+body{
+
+  padding:0;
+  margin:0;
+}
+
+h1{
+  font-family: bbeauty;
+}
+button{
+  font-family: bbeauty;
+}
+
+header{
+	font-family: bbeauty;
+	color: blue;
+	text-align: center;
+}
+.vid-container{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+
+.inner-container{
+  width:400px;
+  height:400px;
+  position:absolute;
+  top:calc(50vh - 200px);
+  left:calc(50vw - 200px);
+  overflow:hidden;
+}
+
+.box{
+  position:absolute;
+  height:37%;
+  width:100%;
+  font-family:bbeauty;
+  color:#fff;
+  background:rgba(0,0,0,0.13);
+  padding:20px 0px;
+}
+
+footer{
+	text-align: center;
+	font-family: bbeauty;
+	color: yellow;
+}
